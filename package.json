@@ -1,7 +1,7 @@
 {
   "name": "node-reddit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get the top posts from your favourite sub-reddits",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,6 @@
     "url": "https://github.com/guyfedwards/node-reddit/issues"
   },
   "homepage": "https://github.com/guyfedwards/node-reddit",
-  "private": true,
   "bin": {
     "reddit": "app.js"
   }

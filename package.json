@@ -2,7 +2,7 @@
   "name": "node-reddit",
   "version": "1.0.0",
   "description": "Get the top posts from your favourite sub-reddits",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/guyfedwards/node-reddit",
   "bin": {
-    "reddit": "app.js"
+    "reddit": "index.js"
+  },
+  "dependencies": {
+    "inquirer": "^1.1.3",
+    "meow": "^3.7.0"
   }
 }
